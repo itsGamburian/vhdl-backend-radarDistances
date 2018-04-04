@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr 04 14:54:02 2018
+# Process ID: 812
+# Current directory: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7232 C:\Users\Mike\Documents\ECE_492_SeniorProject\ultrasonicRadar2D_rev3DistancesOnly\ultrasonicRadar2D.xpr
+# Log file: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/vivado.log
+# Journal file: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 789.125 ; gain = 134.750
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Apr 04 15:02:34 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.runs/synth_1/runme.log
+[Wed Apr 04 15:02:34 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Apr 04 15:03:07 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.runs/synth_1/runme.log
+[Wed Apr 04 15:03:07 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.runs/impl_1/runme.log

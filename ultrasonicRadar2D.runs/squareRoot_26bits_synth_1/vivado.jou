@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Feb 14 17:23:02 2018
+# Process ID: 276
+# Current directory: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D/ultrasonicRadar2D.runs/squareRoot_26bits_synth_1
+# Command line: vivado.exe -log squareRoot_26bits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source squareRoot_26bits.tcl
+# Log file: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D/ultrasonicRadar2D.runs/squareRoot_26bits_synth_1/squareRoot_26bits.vds
+# Journal file: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D/ultrasonicRadar2D.runs/squareRoot_26bits_synth_1\vivado.jou
+#-----------------------------------------------------------
+source squareRoot_26bits.tcl -notrace

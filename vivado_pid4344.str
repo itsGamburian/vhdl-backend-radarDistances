@@ -1,0 +1,127 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 4344
+
+Current time: 	4/4/18 3:03:49 PM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1463x914
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	Mike
+User home directory: C:/Users/Mike
+User working directory: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Mike/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Mike/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	210 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 499 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Mike\Documents\ECE_492_SeniorProject\ultrasonicRadar2D_rev4DistancesOnly\ultrasonicRadar2D.xpr. Version: Vivado v2016.4 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 37 MB (+36834kb) [00:00:07]
+// [Engine Memory]: 405 MB (+272943kb) [00:00:07]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 71 MB (+33591kb) [00:00:09]
+// [Engine Memory]: 433 MB (+8764kb) [00:00:09]
+// [Engine Memory]: 456 MB (+554kb) [00:00:10]
+// Tcl Message: open_project C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly' INFO: [Project 1-313] Project file moved from 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 507 MB. GUI used memory: 34 MB. Current time: 4/4/18 3:03:49 PM PDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 759.563 ; gain = 109.156 
+// [Engine Memory]: 507 MB (+29474kb) [00:00:14]
+// Project name: ultrasonicRadar2D; location: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (main_top.vhd) elapsed time: 0.5s
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_top - Behavioral (main_top.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_top - Behavioral (main_top.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Elapsed time: 14 seconds
+selectCodeEditor("main_top.vhd", 434, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 444, 188); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 144 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (p:JPanel, cd:JFrame)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+selectCodeEditor("main_top.vhd", 443, 157); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): No Implementation Results Available: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g:JCheckBox (JPanel:JComponent, y:aO): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // y:aO (cd:JFrame)
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 04 15:06:57 2018] Launched synth_1... Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.runs/synth_1/runme.log [Wed Apr 04 15:06:57 2018] Launched impl_1... Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 77 MB (+1824kb) [00:04:25]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 146 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="triangleCalculate_ver2_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="triangleCalculate_ver2_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="6024774775fs"></ZoomEndTime>
+      <Cursor1Time time="10000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="177"></NameColumnWidth>
+      <ValueColumnWidth column_width="96"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/triangleCalculate_ver2_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/distance1FromRadar" type="array">
+      <obj_property name="ElementShortName">distance1FromRadar[7:0]</obj_property>
+      <obj_property name="ObjectShortName">distance1FromRadar[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/distance2FromRadar" type="array">
+      <obj_property name="ElementShortName">distance2FromRadar[7:0]</obj_property>
+      <obj_property name="ObjectShortName">distance2FromRadar[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/distance3" type="array">
+      <obj_property name="ElementShortName">distance3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">distance3[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/x" type="array">
+      <obj_property name="ElementShortName">x[7:0]</obj_property>
+      <obj_property name="ObjectShortName">x[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/y" type="array">
+      <obj_property name="ElementShortName">y[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/XY_outputReady" type="logic">
+      <obj_property name="ElementShortName">XY_outputReady</obj_property>
+      <obj_property name="ObjectShortName">XY_outputReady</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/cp" type="other">
+      <obj_property name="ElementShortName">cp</obj_property>
+      <obj_property name="ObjectShortName">cp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/sqrt1OutValid" type="logic">
+      <obj_property name="ElementShortName">sqrt1OutValid</obj_property>
+      <obj_property name="ObjectShortName">sqrt1OutValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/sqrt2OutValid" type="logic">
+      <obj_property name="ElementShortName">sqrt2OutValid</obj_property>
+      <obj_property name="ObjectShortName">sqrt2OutValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/dividerOutValid" type="logic">
+      <obj_property name="ElementShortName">dividerOutValid</obj_property>
+      <obj_property name="ObjectShortName">dividerOutValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/sTemp" type="array">
+      <obj_property name="ElementShortName">sTemp[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sTemp[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/s" type="array">
+      <obj_property name="ElementShortName">s[9:0]</obj_property>
+      <obj_property name="ObjectShortName">s[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/term1" type="array">
+      <obj_property name="ElementShortName">term1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">term1[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/term2" type="array">
+      <obj_property name="ElementShortName">term2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">term2[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/term3" type="array">
+      <obj_property name="ElementShortName">term3[9:0]</obj_property>
+      <obj_property name="ObjectShortName">term3[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/b4SquareRoot" type="array">
+      <obj_property name="ElementShortName">b4SquareRoot[39:0]</obj_property>
+      <obj_property name="ObjectShortName">b4SquareRoot[39:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/tempArea" type="array">
+      <obj_property name="ElementShortName">tempArea[23:0]</obj_property>
+      <obj_property name="ObjectShortName">tempArea[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/areaTimes2_std" type="array">
+      <obj_property name="ElementShortName">areaTimes2_std[23:0]</obj_property>
+      <obj_property name="ObjectShortName">areaTimes2_std[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/area" type="array">
+      <obj_property name="ElementShortName">area[19:0]</obj_property>
+      <obj_property name="ObjectShortName">area[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/areaTimes2" type="array">
+      <obj_property name="ElementShortName">areaTimes2[20:0]</obj_property>
+      <obj_property name="ObjectShortName">areaTimes2[20:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/finalX_sqrtOutput" type="array">
+      <obj_property name="ElementShortName">finalX_sqrtOutput[23:0]</obj_property>
+      <obj_property name="ObjectShortName">finalX_sqrtOutput[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/finalY_dividerOut_fullPrecision" type="array">
+      <obj_property name="ElementShortName">finalY_dividerOut_fullPrecision[23:0]</obj_property>
+      <obj_property name="ObjectShortName">finalY_dividerOut_fullPrecision[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/finalY_dividerOut" type="array">
+      <obj_property name="ElementShortName">finalY_dividerOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">finalY_dividerOut[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/finalY_dividerOut_fullPrecision_dumb" type="array">
+      <obj_property name="ElementShortName">finalY_dividerOut_fullPrecision_dumb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">finalY_dividerOut_fullPrecision_dumb[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/finalX_sqrtOutput_dumb" type="array">
+      <obj_property name="ElementShortName">finalX_sqrtOutput_dumb[31:0]</obj_property>
+      <obj_property name="ObjectShortName">finalX_sqrtOutput_dumb[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/finalX" type="array">
+      <obj_property name="ElementShortName">finalX[23:0]</obj_property>
+      <obj_property name="ObjectShortName">finalX[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/finalY" type="array">
+      <obj_property name="ElementShortName">finalY[23:0]</obj_property>
+      <obj_property name="ObjectShortName">finalY[23:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/ySquared" type="array">
+      <obj_property name="ElementShortName">ySquared[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ySquared[47:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/triangleCalculate_ver2_tb/tri/xb4SquareRoot" type="array">
+      <obj_property name="ElementShortName">xb4SquareRoot[47:0]</obj_property>
+      <obj_property name="ObjectShortName">xb4SquareRoot[47:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

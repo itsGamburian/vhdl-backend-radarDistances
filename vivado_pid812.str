@@ -1,0 +1,209 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 812
+
+Current time: 	4/4/18 2:54:20 PM PDT
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1463x914
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	Mike
+User home directory: C:/Users/Mike
+User working directory: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/Mike/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/Mike/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	219 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 413 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Mike\Documents\ECE_492_SeniorProject\ultrasonicRadar2D_rev3DistancesOnly\ultrasonicRadar2D.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 35 MB (+34225kb) [00:00:07]
+// [Engine Memory]: 402 MB (+269875kb) [00:00:07]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// Tcl Message: open_project C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly' 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 42 MB (+5822kb) [00:00:11]
+// [Engine Memory]: 442 MB (+21406kb) [00:00:11]
+// [GUI Memory]: 48 MB (+3850kb) [00:00:13]
+// [Engine Memory]: 471 MB (+6804kb) [00:00:13]
+// [GUI Memory]: 55 MB (+4865kb) [00:00:13]
+// [Engine Memory]: 500 MB (+5832kb) [00:00:13]
+// Tcl Message: open_project C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 35 MB. Current time: 4/4/18 2:54:27 PM PDT
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 789.125 ; gain = 134.750 
+// Project name: ultrasonicRadar2D; location: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly; part: xc7z020clg484-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 59 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_top - Behavioral (main_top.vhd)]", 1); // y:i (D:JPanel, cd:JFrame)
+// PAPropertyPanels.initPanels (main_top.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_top - Behavioral (main_top.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_top - Behavioral (main_top.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectCodeEditor("main_top.vhd", 232, 174); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 232, 174, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("main_top.vhd", 246, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("main_top.vhd", 242, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 242, 299, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("main_top.vhd", 322, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 322, 283, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// [GUI Memory]: 60 MB (+2065kb) [00:01:50]
+// Elapsed time: 17 seconds
+selectCodeEditor("main_top.vhd", 110, 188); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 110, 188, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("main_top.vhd", 335, 194); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 335, 194, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("main_top.vhd", 138, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 138, 198, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("main_top.vhd", 126, 220); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 126, 220, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("main_top.vhd", 113, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 113, 176, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("main_top.vhd", 256, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 256, 195, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// [GUI Memory]: 77 MB (+14727kb) [00:02:25]
+// Elapsed time: 13 seconds
+selectCodeEditor("main_top.vhd", 165, 281); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 165, 281, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("main_top.vhd", 260, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 264, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_top.vhd", 277, 229); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 277, 229, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("main_top.vhd", 204, 276); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 204, 276, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 220 seconds
+selectCodeEditor("main_top.vhd", 467, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 81 MB (+101kb) [00:06:57]
+// [GUI Memory]: 87 MB (+2072kb) [00:07:05]
+// Elapsed time: 14 seconds
+selectCodeEditor("main_top.vhd", 477, 199); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 377, 205); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 377, 205, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+selectCodeEditor("main_top.vhd", 377, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 377, 196, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "main_top.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 496, 192); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "main_top.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 266, 166); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "main_top.vhd", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 497, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "main_top.vhd", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 462, 159); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 423, 163); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_top.vhd", 434, 200); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 34 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g:JCheckBox (JPanel:JComponent, y:aO): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// [GUI Memory]: 92 MB (+609kb) [00:08:20]
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 04 15:02:34 2018] Launched synth_1... Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.runs/synth_1/runme.log [Wed Apr 04 15:02:34 2018] Launched impl_1... Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (p:JPanel, cd:JFrame)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+selectCodeEditor("main_top.vhd", 570, 309); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("main_top.vhd", 561, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): No Implementation Results Available: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", false); // g:JCheckBox (JPanel:JComponent, y:aO): FALSE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // y:aO (cd:JFrame)
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Wed Apr 04 15:03:07 2018] Launched synth_1... Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.runs/synth_1/runme.log [Wed Apr 04 15:03:07 2018] Launched impl_1... Run output will be captured here: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev3DistancesOnly/ultrasonicRadar2D.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)

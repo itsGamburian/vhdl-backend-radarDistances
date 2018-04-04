@@ -1,0 +1,615 @@
+
+*** Running vivado
+    with args -log main_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_top.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source main_top.tcl -notrace
+Command: synth_design -top main_top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8524 
+
+*** Running vivado
+    with args -log main_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source main_top.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source main_top.tcl -notrace
+Command: synth_design -top main_top -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9440 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 282.035 ; gain = 71.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'main_top' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:35]
+INFO: [Synth 8-3491] module 'ultrasonic_reading' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/ultrasonic_reading.vhd:16' bound to instance 'radar1' of component 'ultrasonic_reading' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'ultrasonic_reading' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/ultrasonic_reading.vhd:23]
+INFO: [Synth 8-3491] module 'edge_detection' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/edge_detection.vhd:17' bound to instance 'PWM_pos' of component 'edge_detection' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/ultrasonic_reading.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'edge_detection' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/edge_detection.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'edge_detection' (1#1) [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/edge_detection.vhd:23]
+INFO: [Synth 8-3491] module 'edge_detection' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/edge_detection.vhd:17' bound to instance 'PWM_neg' of component 'edge_detection' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/ultrasonic_reading.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'ultrasonic_reading' (2#1) [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/ultrasonic_reading.vhd:23]
+INFO: [Synth 8-3491] module 'ultrasonic_reading' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/ultrasonic_reading.vhd:16' bound to instance 'radar2' of component 'ultrasonic_reading' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:100]
+INFO: [Synth 8-3491] module 'sevenSegment' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/sevenSegment.vhd:15' bound to instance 'sevenSeg' of component 'sevenSegment' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'sevenSegment' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/sevenSegment.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'sevenSegment' (3#1) [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/sevenSegment.vhd:21]
+	Parameter inputFrequency_Hz bound to: 13605 - type: integer 
+	Parameter outputFrequency_Hz bound to: 10 - type: integer 
+INFO: [Synth 8-3491] module 'clkDivider' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/clkDivider.vhd:17' bound to instance 'clk5_1' of component 'clkDivider' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'clkDivider' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/clkDivider.vhd:25]
+	Parameter inputFrequency_Hz bound to: 13605 - type: integer 
+	Parameter outputFrequency_Hz bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clkDivider' (4#1) [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/clkDivider.vhd:25]
+	Parameter inputFrequency_Hz bound to: 13605 - type: integer 
+	Parameter outputFrequency_Hz bound to: 80 - type: integer 
+INFO: [Synth 8-3491] module 'clkDivider' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/clkDivider.vhd:17' bound to instance 'clk5_2' of component 'clkDivider' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:105]
+INFO: [Synth 8-638] synthesizing module 'clkDivider__parameterized1' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/clkDivider.vhd:25]
+	Parameter inputFrequency_Hz bound to: 13605 - type: integer 
+	Parameter outputFrequency_Hz bound to: 80 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clkDivider__parameterized1' (4#1) [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/clkDivider.vhd:25]
+	Parameter HARDWIRED bound to: 1 - type: bool 
+	Parameter BAUD_RATE bound to: 19200 - type: integer 
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+INFO: [Synth 8-3491] module 'uart' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/uart.vhd:170' bound to instance 'uart_X' of component 'uart' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:131]
+INFO: [Synth 8-638] synthesizing module 'uart' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/uart.vhd:193]
+	Parameter HARDWIRED bound to: 1 - type: bool 
+	Parameter BAUD_RATE bound to: 19200 - type: integer 
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'uart' (5#1) [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/uart.vhd:193]
+	Parameter HARDWIRED bound to: 1 - type: bool 
+	Parameter BAUD_RATE bound to: 19200 - type: integer 
+	Parameter CLOCK_FREQ bound to: 100000000 - type: integer 
+INFO: [Synth 8-3491] module 'uart' declared at 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/uart.vhd:170' bound to instance 'uart_Y' of component 'uart' [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:151]
+WARNING: [Synth 8-3848] Net radar1_rx in module/entity main_top does not have driver. [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:24]
+WARNING: [Synth 8-3848] Net radar2_rx in module/entity main_top does not have driver. [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'main_top' (6#1) [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.srcs/sources_1/new/main_top.vhd:35]
+WARNING: [Synth 8-3917] design main_top has port LEDs[7] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[6] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[5] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[4] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[3] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[2] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[1] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[0] driven by constant 0
+WARNING: [Synth 8-3331] design main_top has unconnected port radar1_rx
+WARNING: [Synth 8-3331] design main_top has unconnected port radar2_rx
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[6]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[5]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[4]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[3]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[2]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[1]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 320.430 ; gain = 110.113
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 320.430 ; gain = 110.113
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/constraintsFile.xdc]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/constraintsFile.xdc:381]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/constraintsFile.xdc:386]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/constraintsFile.xdc:391]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 13]]'. [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/constraintsFile.xdc:394]
+Finished Parsing XDC File [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/constraintsFile.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/constraintsFile.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/main_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 640.352 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "frequency" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "frequency" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "bit_period_reg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samples" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samples" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samples" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tx_busy" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "bit_period_reg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samples" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samples" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "samples" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tx_busy" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "sampled_bit" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 7     
+	   2 Input     11 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 6     
++---Registers : 
+	               32 Bit    Registers := 2     
+	               14 Bit    Registers := 2     
+	               11 Bit    Registers := 4     
+	               10 Bit    Registers := 2     
+	                9 Bit    Registers := 2     
+	                8 Bit    Registers := 6     
+	                4 Bit    Registers := 6     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 23    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   2 Input     14 Bit        Muxes := 4     
+	   2 Input     11 Bit        Muxes := 4     
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      7 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 10    
+	   6 Input      4 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 28    
+	   8 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module main_top 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module edge_detection 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module ultrasonic_reading 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module sevenSegment 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 1     
+Module clkDivider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module clkDivider__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module uart 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     11 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               14 Bit    Registers := 1     
+	               11 Bit    Registers := 2     
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input     14 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	   6 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "clk5_1/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5_1/frequency" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5_2/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5_2/frequency" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5_1/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5_1/frequency" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5_2/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk5_2/frequency" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design main_top has port LEDs[7] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[6] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[5] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[4] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[3] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[2] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[1] driven by constant 0
+WARNING: [Synth 8-3917] design main_top has port LEDs[0] driven by constant 0
+WARNING: [Synth 8-3331] design main_top has unconnected port radar1_rx
+WARNING: [Synth 8-3331] design main_top has unconnected port radar2_rx
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[6]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[5]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[4]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[3]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[2]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[1]
+WARNING: [Synth 8-3331] design main_top has unconnected port switches[0]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_Y/tx_data_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_X/tx_data_reg[10] )
+INFO: [Synth 8-3886] merging instance 'uart_Y/bit_period_reg_reg[0]' (FDRE) to 'uart_Y/bit_period_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'uart_Y/bit_period_reg_reg[1]' (FDRE) to 'uart_Y/bit_period_reg_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_Y/bit_period_reg_reg[2] )
+INFO: [Synth 8-3886] merging instance 'uart_X/bit_period_reg_reg[0]' (FDRE) to 'uart_X/bit_period_reg_reg[8]'
+INFO: [Synth 8-3886] merging instance 'uart_X/bit_period_reg_reg[1]' (FDRE) to 'uart_X/bit_period_reg_reg[9]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_X/bit_period_reg_reg[2] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_Y/bit_period_reg_reg[3] )
+INFO: [Synth 8-3886] merging instance 'uart_Y/bit_period_reg_reg[4]' (FDSE) to 'uart_Y/bit_period_reg_reg[12]'
+INFO: [Synth 8-3886] merging instance 'uart_Y/bit_period_reg_reg[5]' (FDRE) to 'uart_Y/bit_period_reg_reg[13]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_Y/bit_period_reg_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_Y/bit_period_reg_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_Y/bit_period_reg_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_Y/bit_period_reg_reg[9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_Y/bit_period_reg_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_Y/bit_period_reg_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_Y/bit_period_reg_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_Y/bit_period_reg_reg[13] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_X/bit_period_reg_reg[3] )
+INFO: [Synth 8-3886] merging instance 'uart_X/bit_period_reg_reg[4]' (FDSE) to 'uart_X/bit_period_reg_reg[12]'
+INFO: [Synth 8-3886] merging instance 'uart_X/bit_period_reg_reg[5]' (FDRE) to 'uart_X/bit_period_reg_reg[13]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_X/bit_period_reg_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_X/bit_period_reg_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_X/bit_period_reg_reg[8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_X/bit_period_reg_reg[9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_X/bit_period_reg_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_X/bit_period_reg_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\uart_X/bit_period_reg_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\uart_X/bit_period_reg_reg[13] )
+WARNING: [Synth 8-3332] Sequential element (radar1/PWM_pos/temp_reg) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/PWM_pos/temp_reg) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[9]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[10]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[11]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[12]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[13]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[14]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[15]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[16]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[17]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[18]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[19]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[20]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[21]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[22]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[23]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[24]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[25]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[26]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[27]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[28]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[29]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[30]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/pwm_width_reg[31]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar2/reading_reg_reg[0]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[9]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[10]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[11]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[12]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[13]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[14]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[15]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[16]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[17]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[18]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[19]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[20]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[21]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[22]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[23]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[24]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[25]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[26]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[27]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[28]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[29]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[30]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/pwm_width_reg[31]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (radar1/reading_reg_reg[0]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[13]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[12]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[11]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[10]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[9]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[8]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[7]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[6]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[3]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/bit_period_reg_reg[2]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tx_data_reg[10]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tx_irq_reg) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/set_rx_rdy_flag_reg) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/rx_rdy_flag_reg) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[10]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[9]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[8]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[7]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[6]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[5]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[4]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[3]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[2]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[1]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_baud_ctr_reg[0]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/rxd_q_reg) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/samples_reg[2]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/samples_reg[1]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/samples_reg[0]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/state_reg[3]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/state_reg[2]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/state_reg[1]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/state_reg[0]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_ctr_reg[3]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_ctr_reg[2]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_ctr_reg[1]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tick_ctr_reg[0]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/tx_irq_flag_reg) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_X/rx_irq_flag_reg) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[13]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[12]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[11]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[10]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[9]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[8]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[7]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[6]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[3]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/bit_period_reg_reg[2]) is unused and will be removed from module main_top.
+WARNING: [Synth 8-3332] Sequential element (uart_Y/tx_data_reg[10]) is unused and will be removed from module main_top.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |   131|
+|3     |LUT1   |   300|
+|4     |LUT2   |    31|
+|5     |LUT3   |   101|
+|6     |LUT4   |    61|
+|7     |LUT5   |    18|
+|8     |LUT6   |    47|
+|9     |FDRE   |   257|
+|10    |FDSE   |    18|
+|11    |IBUF   |     5|
+|12    |OBUF   |    18|
+|13    |OBUFT  |     2|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------+---------------------------+------+
+|      |Instance    |Module                     |Cells |
++------+------------+---------------------------+------+
+|1     |top         |                           |   991|
+|2     |  clk5_1    |clkDivider                 |    83|
+|3     |  clk5_2    |clkDivider__parameterized1 |    83|
+|4     |  radar1    |ultrasonic_reading         |   177|
+|5     |    PWM_neg |edge_detection_2           |    15|
+|6     |  radar2    |ultrasonic_reading_0       |   177|
+|7     |    PWM_neg |edge_detection             |    15|
+|8     |  sevenSeg  |sevenSegment               |   168|
+|9     |  uart_X    |uart                       |    73|
+|10    |  uart_Y    |uart_1                     |    73|
++------+------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 640.352 ; gain = 430.035
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 145 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 640.352 ; gain = 110.113
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 640.352 ; gain = 430.035
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 136 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+95 Infos, 140 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 640.352 ; gain = 430.035
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.runs/synth_1/main_top.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 640.352 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 04 15:07:43 2018...

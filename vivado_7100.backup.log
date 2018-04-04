@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Mar 26 11:14:05 2018
+# Process ID: 7100
+# Current directory: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev2DistancesOnly
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7848 C:\Users\Mike\Documents\ECE_492_SeniorProject\ultrasonicRadar2D_rev2DistancesOnly\ultrasonicRadar2D.xpr
+# Log file: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev2DistancesOnly/vivado.log
+# Journal file: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev2DistancesOnly\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev2DistancesOnly/ultrasonicRadar2D.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev2DistancesOnly'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 751.316 ; gain = 98.332
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2016.4
+  **** Build date : Jan 23 2017-19:37:29
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248A27238
+set_property PROGRAM.FILE {C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev2DistancesOnly/ultrasonicRadar2D.runs/impl_1/main_top.bit} [lindex [get_hw_devices xc7z020_1] 0]
+current_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROGRAM.FILE {C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev2DistancesOnly/ultrasonicRadar2D.runs/impl_1/main_top.bit} [lindex [get_hw_devices xc7z020_1] 0]
+program_hw_devices [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+WARNING: [Labtoolstcl 44-130] No matching hw_ilas were found.
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210248A27238.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248A27238
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 26 11:20:27 2018...

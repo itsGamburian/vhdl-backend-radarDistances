@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Apr 04 15:03:29 2018
+# Process ID: 4344
+# Current directory: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7732 C:\Users\Mike\Documents\ECE_492_SeniorProject\ultrasonicRadar2D_rev4DistancesOnly\ultrasonicRadar2D.xpr
+# Log file: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/vivado.log
+# Journal file: C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Mike/Documents/ECE_492_SeniorProject/ultrasonicRadar2D_rev4DistancesOnly/ultrasonicRadar2D.xpr
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
